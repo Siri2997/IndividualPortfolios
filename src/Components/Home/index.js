@@ -3,7 +3,7 @@ import LogoTitle from '../../assets/images/logo-s.png';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
-import Logo from './Logo';
+// import Logo from './Logo';
 import Loader from 'react-loaders'; 
 
 const Home =() => {
@@ -51,7 +51,7 @@ useEffect(() => {
                 </h2>
                 <Link to ="/contact" className = 'flat-button'>Contact Me</Link>
             </div>
-            <Logo />
+            {/* <Logo /> */}
 
         </div>
 
